@@ -1,0 +1,86 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.prototypePlaceholderName.controller.DetailPageUser" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.layout" xmlns:chart="sap.chart" xmlns:data="sap.chart.data">
+    <Page title="Name of project" showHeader="true" showFooter="true" showNavButton="false">
+        <content>
+            <IconTabBar expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true" selectedKey="Ok">
+                <items>
+                    <IconTabFilter icon="sap-icon://hint" iconColor="Positive" text="Information" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                        <content>
+                            <core:Icon src="sap-icon://person-placeholder" size="96px" height="109.375px" width="938.609375px" visible="true"/>
+                            <layout:VerticalLayout width="100%" visible="true">
+                                <layout:content>
+                                    <ObjectListItem intro="" title="Name" icon="sap-icon://person-placeholder" number="Oussama El Aazmani" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                    <layout:VerticalLayout width="100%" visible="true">
+                                        <layout:content>
+                                            <ObjectListItem intro="" title="Phone" icon="sap-icon://iphone" number="0412345678" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false">
+                                                <attributes/>
+                                                <firstStatus/>
+                                                <secondStatus/>
+                                            </ObjectListItem>
+                                            <layout:VerticalLayout width="100%" visible="true">
+                                                <layout:content>
+                                                    <ObjectListItem intro="" title="Adres" icon="sap-icon://map-3" number="Nijverheidskaai 187" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false">
+                                                        <attributes/>
+                                                        <firstStatus/>
+                                                        <secondStatus/>
+                                                    </ObjectListItem>
+                                                    <layout:VerticalLayout width="100%" visible="true">
+                                                        <layout:content>
+                                                            <layout:VerticalLayout width="100%" visible="true">
+                                                                <layout:content>
+                                                                    <ObjectListItem intro="" title="E-mail" icon="sap-icon://email" number="oussama@gmail.com" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false">
+                                                                        <attributes/>
+                                                                        <firstStatus/>
+                                                                        <secondStatus/>
+                                                                    </ObjectListItem>
+                                                                </layout:content>
+                                                            </layout:VerticalLayout>
+                                                            <ObjectListItem intro="" title="Job" icon="sap-icon://work-history" number="Junior SAP consultant" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false">
+                                                                <attributes/>
+                                                                <firstStatus/>
+                                                                <secondStatus/>
+                                                            </ObjectListItem>
+                                                        </layout:content>
+                                                    </layout:VerticalLayout>
+                                                </layout:content>
+                                            </layout:VerticalLayout>
+                                        </layout:content>
+                                    </layout:VerticalLayout>
+                                </layout:content>
+                            </layout:VerticalLayout>
+                        </content>
+                    </IconTabFilter>
+                    <IconTabSeparator icon="" iconDensityAware="false"/>
+                    <IconTabFilter icon="sap-icon://horizontal-bar-chart" iconColor="Default" text="Performances" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                        <content>
+                            <chart:Chart id="sap_IconTabBar_Page_0-content-sap_m_IconTabBar-2-items-sap_m_IconTabFilter-1543150033463-content-sap_chart_PieChart-1543150281255" width="100%" height="450px" visibleDimensions="__id" visibleMeasures="mea0" chartType="pie" selectionMode="Single" uiConfig="{}" vizProperties="{plotArea:{dataLabel:{visible: true,hideWhenOverlap:true}}}">
+                                <chart:dimensions>
+                                    <data:Dimension name="__id" label="Country" role="category" textProperty="dim0"/>
+                                </chart:dimensions>
+                                <chart:measures>
+                                    <data:Measure name="mea0" label="Profit" role="axis2"/>
+                                </chart:measures>
+                            </chart:Chart>
+                        </content>
+                    </IconTabFilter>
+                </items>
+                <content>
+                    <Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                    <Text text="" width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                </content>
+            </IconTabBar>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Modify" type="Accept" icon="sap-icon://user-edit" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+    </Page>
+</mvc:View>

@@ -1,0 +1,96 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.prototypePlaceholderName.controller.MasterPage1" xmlns="sap.m">
+    <Page title="Project manger" showHeader="true" showFooter="true" showNavButton="false">
+        <content>
+            <IconTabBar expandable="false" expanded="true" applyContentPadding="false" backgroundDesign="Solid" upperCase="false" visible="true" selectedKey="Ok">
+                <items>
+                    <IconTabFilter icon="sap-icon://person-placeholder" iconColor="Positive" text="Personeel" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                        <content>
+                            <Button text="Create Personeel" type="Accept" icon="sap-icon://add" iconFirst="true" width="312.609375px" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress"/>
+                            <List mode="SingleSelectMaster" width="100%" headerText="Header" footerText="" backgroundDesign="Solid" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" visible="true">
+                                <infoToolbar/>
+                                <headerToolbar>
+                                    <Toolbar enabled="true" visible="true" width="" design="Solid">
+                                        <content>
+                                            <SearchField placeholder="Search" showSearchButton="true" visible="true" width="100%"/>
+                                        </content>
+                                    </Toolbar>
+                                </headerToolbar>
+                                <items>
+                                    <ObjectListItem intro="Oussama El Aazmani" title="Junior SAP consultant" number="" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false" press="_onObjectListItemPress">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                    <ObjectListItem intro="Oussama El Aazmani" title="Junior SAP consultant" number="" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false" press="_onObjectListItemPress1">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                    <ObjectListItem intro="Oussama El Aazmani" title="Junior SAP consultant" number="" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false" press="_onObjectListItemPress2">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                    <ObjectListItem intro="Oussama El Aazmani" title="Junior SAP consultant" number="" numberUnit="" numberState="None" type="Active" selected="false" showMarkers="false" press="_onObjectListItemPress3">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                </items>
+                            </List>
+                        </content>
+                    </IconTabFilter>
+                    <IconTabSeparator icon="" iconDensityAware="false"/>
+                    <IconTabFilter icon="sap-icon://task" iconColor="Neutral" text="Project" count="" design="Vertical" showAll="false" textDirection="Inherit" enabled="true" visible="true" iconDensityAware="false">
+                        <content>
+                            <Button text="Create Project" type="Accept" icon="sap-icon://add" iconFirst="true" width="319.61000000px" enabled="true" visible="true" iconDensityAware="false" press="_onButtonPress1"/>
+                            <List mode="SingleSelectMaster" width="100%" headerText="Header" footerText="" backgroundDesign="Solid" showSeparators="All" growing="true" growingThreshold="20" growingScrollToLoad="true" visible="true" itemPress="_onObjectListItemPress4">
+                                <infoToolbar/>
+                                <headerToolbar>
+                                    <Toolbar enabled="true" visible="true" width="" design="Solid">
+                                        <content>
+                                            <SearchField placeholder="Search" showSearchButton="true" visible="true" width="100%"/>
+                                        </content>
+                                    </Toolbar>
+                                </headerToolbar>
+                                <items>
+                                    <ObjectListItem intro="" title="Final work" icon="sap-icon://task" number="" numberUnit="19/11/2018" numberState="None" type="Active" selected="false" showMarkers="false">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                    <ObjectListItem intro="" title="Final work" icon="sap-icon://task" number="" numberUnit="19/11/2018" numberState="None" type="Active" selected="false" showMarkers="false" press="_onObjectListItemPress5">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                    <ObjectListItem intro="" title="Final work" icon="sap-icon://task" number="" numberUnit="19/11/2018" numberState="None" type="Active" selected="false" showMarkers="false">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                    <ObjectListItem intro="" title="Final work" icon="sap-icon://task" number="" numberUnit="19/11/2018" numberState="None" type="Active" selected="false" showMarkers="false">
+                                        <attributes/>
+                                        <firstStatus/>
+                                        <secondStatus/>
+                                    </ObjectListItem>
+                                </items>
+                            </List>
+                        </content>
+                    </IconTabFilter>
+                </items>
+                <content>
+                    <Text text="Tab Bar Content goes here ..." width="auto" maxLines="1" wrapping="false" textAlign="Begin" textDirection="Inherit" visible="true"/>
+                </content>
+            </IconTabBar>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <Button text="Filter" type="Default" icon="sap-icon://filter" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+    </Page>
+</mvc:View>
